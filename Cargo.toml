@@ -1,0 +1,15 @@
+[package]
+name = "rustffi"
+version = "0.1.0"
+edition = "2018"
+build = "build.rs"
+
+[[bin]]
+name = "main"
+path = "src/bin/main.rs"
+
+[lib]
+name = "lib"
+path = "src/lib.rs"
+
+[dependencies]

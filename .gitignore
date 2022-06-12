@@ -1,0 +1,7 @@
+build/debug/
+build/release/
+build/CACHEDIR.TAG
+build/.rustc_info.json
+Cargo.lock
+src/ffi/build/*.a
+src/ffi/build/*.o
